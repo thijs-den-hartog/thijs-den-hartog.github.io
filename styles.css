@@ -1,25 +1,30 @@
 
-.topnav{
+nav{
    background-color: #00cc00;
    overflow: hidden;
    top: 0;
    position: sticky;
+
 }
 
-.topnav a{
+nav li{
+  display: inline-block;
+}
+
+nav a{
  float: left;
  color: #ffffff;
  text-align: center;
- padding: 14px 16px;
+ padding: 10px 12px;
  text-decoration: none;
  font-size: 17px;
 
 }
 
-.topnav a.active{
+nav a.active{
   background-color: #85adad;
 }
-.topnav a:hover {
+nav a:hover {
     background-color: #e0ebeb;
     color: black;
     opacity: 0.5;
@@ -76,10 +81,17 @@ font-family: 'Alfa Slab One', cursive;
  }
 h4{
   font-family: 'Oswald', sans-serif;
-  color: ##6666ff;
   padding-left: 25%;
 }
 #kaart{
   padding-left: 60%;
   margin-top: -240px;
+}
+
+.tekst_contact{
+  margin-top: -1200px;
+  margin-left: 400px;
+  font-size: 60px;
+  color: white;
+
 }
